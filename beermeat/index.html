@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню кафе</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Bear&Meat</h1>
+    <h2 class="subtitle">House</h2>
+
+    <div class="menu-grid">
+        <!-- Пример кнопки с изображением и текстом -->
+        <button class="menu-item" onclick="sendDataToBot('Пицца')">
+            <img src="images/pizza.png" alt="Пицца">
+            <span>Пицца</span>
+        </button>
+        <!-- Добавьте остальные кнопки для вашего меню -->
+    </div>
+
+    <!-- Нижние кнопки -->
+    <div class="footer">
+        <button class="nav-btn" onclick="goHome()">🏠</button>
+        <button class="nav-btn" onclick="openCart()">🛒</button>
+        <button class="nav-btn" onclick="callContact()">📞</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
